@@ -5,7 +5,7 @@ import cognitive_face as CF
 import requests
 import pandas as pd
 
-KEY = '9f4243734f6e4d89a7e24b3aa39c0a2f'  # My subscription key
+KEY = 'api-key.txt'  # My subscription key
 CF.Key.set(KEY)
 
 BASE_URL = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0'  # My regional Base URL
