@@ -23,10 +23,10 @@ face2_id = face2[0]['faceId']
 
 print(face1_id, face2_id)
 
-# print(face1, face2)
 # Then use Face-Verify
 
-
+verify = CF.face.verify(face1_id, face2_id)
+print(verify)
 
 
 # You can use this example JPG or replace the URL below with your own URL to a JPEG image.
